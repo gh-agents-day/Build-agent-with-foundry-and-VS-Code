@@ -8,17 +8,6 @@ This exercise should take approximately **45** minutes to complete.
 
 > **Note**: Some of the technologies used in this exercise are in preview or in active development. You may experience some unexpected behavior, warnings, or errors.
 
-## Prerequisites
-
-Before starting this exercise, ensure you have:
-
-- An [Azure subscription](https://azure.microsoft.com/free/) with permissions to create AI resources
-- [Visual Studio Code](https://code.visualstudio.com/) installed on your local machine
-- [Python 3.13](https://www.python.org/downloads/) installed
-- [Git](https://git-scm.com/downloads) installed on your local machine
-- Basic familiarity with the Microsoft Foundry portal and Python programming
-
-> \* Python 3.14 isn't supported yet: some dependencies have no 3.14 build. This lab was tested with Python 3.13.12.
 
 ## Create a Foundry project
 
@@ -76,8 +65,6 @@ Now you'll configure your agent that uses Foundry IQ to search the knowledge bas
 
 Now you'll upload sample product information documents to connect to with Foundry IQ.
 
-1. Download the sample product information files by opening a new browser tab and navigating to `https://github.com/MicrosoftLearning/mslearn-ai-agents/raw/main/Labfiles/04-integrate-agent-with-foundry-iq/data/contoso-products.zip`
-1. Extract the files from the zip, which should be 3 PDFs detailing the products from Contoso.
 1. Open a new tab and navigate to the Azure portal at `https://portal.azure.com`. In the top search bar, search fo **Storage accounts** and select **Storage accounts** from the services section.
 1. Create a storage account with the following settings:
     - **Subscription**: *Your Azure subscription*
@@ -89,7 +76,7 @@ Now you'll upload sample product information documents to connect to with Foundr
     - **Redundancy**: *Locally-redundant storage (LRS)*
 1. Once created, go to the storage account you created and select **Upload** from the top bar.
 1. In the **Upload blob** blade, create a new container named `contosoproducts`.
-1. Browse for the files extracted from the zip file, select all 3 PDF files, and select **Upload**.
+1. Browse for the files from `<RepositoryRoot>/Labfiles/04-integrate-agent-with-foundry-iq/data`, select all 3 PDF files, and select **Upload**.
 1. Once your files are uploaded, navigate to the search service you created.
 1. On the left pane, under **Security + networking** > **Keys**, select **Both** for API Access control and confirm the selection. Once complete, leave the Azure Portal tab open and navigate back to the Foundry portal tab and refresh the page.
 1. Verify you are on the **Knowledge** page, select **Create a knowledge base**, choosing **Azure Blob Storage** as your knowledge source, then select **Connect**.
@@ -164,18 +151,13 @@ Now you'll create a Python application to interact with your agent programmatica
 
 ### Prepare to develop an app in Visual Studio Code
 
-Now let's use Visual Studio Code to develop an app. The code files for your app have been provided in a GitHub repo.
-
-1. Start Visual Studio Code, and open the command palette (Shift+Ctrl+P). Then search for and run the **Git: Clone** command to clone the `https://github.com/MicrosoftLearning/mslearn-ai-agents` repo to a local folder (it doesn't matter which folder).
-1. When the repository has been cloned, open the folder in Visual Studio Code.
-
-    > **Note**: If Visual Studio Code shows you a pop-up message prompting you to trust the code you are opening, click **Yes, I trust the authors** option to continue.
+Now let's use Visual Studio Code to develop an app. 
 
 1. Wait while additional files are installed to support the Python code projects in the repo (if prompted).
 
     > **Note**: If you are prompted to install required assets to build and debug, select **Not Now**.
 
-1. In the **Explorer** pane, expand the **Labfiles/04-integrate-agent-with-foundry-iq/Python** folder.
+1. In VS Code, Go to **File > New Window > Open Folder**  the **Labfiles/04-integrate-agent-with-foundry-iq/Python** folder.
 
     The provided files include application code, configuration settings, and the agent client starter code.
 

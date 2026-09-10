@@ -8,14 +8,6 @@ This lab takes approximately **40** minutes.
 
 > **Note**: Publishing to Microsoft 365 Copilot requires a Copilot license. The Teams deployment works with standard Microsoft 365 accounts.
 
-## Prerequisites
-
-Before starting this lab, ensure you have:
-
-- An [Azure subscription](https://azure.microsoft.com/free/) with permissions to create AI resources
-- **Microsoft 365 account** with Teams access
-- **Microsoft 365 Copilot license** (optional, for Copilot deployment)
-- Basic familiarity with the Microsoft Foundry portal
 
 ## Create a Foundry project
 
@@ -72,13 +64,13 @@ Now that you have an agent created, let's configure it with instructions and kno
     **IT Security Policy:**
 
     ```
-   https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-agents/main/Labfiles/05a-m365-teams-integration/Python/sample_documents/it_security_policy.txt
+   <Repository Root>Labfiles/05a-m365-teams-integration/Python/sample_documents/it_security_policy.txt
     ```
 
     **Remote Work Policy:**
 
     ```
-   https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-agents/main/Labfiles/05a-m365-teams-integration/Python/sample_documents/remote_work_policy.txt
+   <Repository Root>Labfiles/05a-m365-teams-integration/Python/sample_documents/remote_work_policy.txt
     ```
 
 4. Return to your agent's configuration, scroll to the **Tools** section.

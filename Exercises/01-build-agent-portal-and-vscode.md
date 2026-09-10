@@ -53,31 +53,30 @@ Now that you have an agent created, let's configure it with instructions and add
    - When creating tickets, collect all necessary information before proceeding
     ```
 
-1. Download the IT policy document from the lab repository. Open a new browser tab and navigate to:
+1. Observe the IT policy document in:
 
     ```
-   https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-agents/main/Labfiles/01-build-agent-portal-and-vscode/IT_Policy.txt
+    <RepositoryRoot>/Labfiles/01-build-agent-portal-and-vscode/IT_Policy.txt
     ```
 
-    Save the file to your local machine.
+    
 
     > **Note**: This document contains sample IT policies for password resets, software installation requests, and hardware troubleshooting.
 
 1. Return to the agent playground. In the **Tools** section, select **Add**, and then add both **File search** and **</> Code interpreter**.
 
-1. To the right of **Add**, select **Upload files**. Under **Attach files**, browse to and upload the `IT_Policy.txt` file you just downloaded, and then select **Attach**.
+1. To the right of **Add**, select **Upload files**. Under **Attach files**, browse to and upload the `IT_Policy.txt` file, and then select **Attach**.
 
 1. Wait for the file to be indexed. You'll see a confirmation when it's ready.
 
-1. Now let's add some performance data for the code interpreter to analyze. Download the system performance data file from:
+1. Now let's add some performance data for the code interpreter to analyze.  The system performance data file is available in:
 
     ```
-   https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-agents/main/Labfiles/01-build-agent-portal-and-vscode/system_performance.csv
+   <RepostiryRoot>/Labfiles/01-build-agent-portal-and-vscode/system_performance.csv
     ```
 
-    Save this file to your local machine.
 
-1. To the right of **</> Code interpreter**, select **+ Files**, and then upload the `system_performance.csv` file you just downloaded.
+1. To the right of **</> Code interpreter**, select **+ Files**, and then upload the `system_performance.csv` file.
 
     > **Note**: This CSV file contains simulated system metrics (CPU, memory, disk usage) over time that the agent can analyze.
 
@@ -169,21 +168,7 @@ Before writing any code, you can interact with your agent directly in the extens
 
 Now let's create a client application that interacts with your agent programmatically.
 
-1. In VS Code, open the Command Palette (**Ctrl+Shift+P** or **View > Command Palette**).
-
-1. Type **Git: Clone** and select it from the list.
-
-1. Enter the repository URL:
-
-    ```
-   https://github.com/MicrosoftLearning/mslearn-ai-agents.git
-    ```
-
-1. Choose a location on your local machine to clone the repository.
-
-1. When prompted, select **Open** to open the cloned repository in VS Code.
-
-1. Once the repository opens, select **File > Open Folder** and navigate to `mslearn-ai-agents/Labfiles/01-build-agent-portal-and-vscode/Python`, then choose **Select Folder**.
+1. From the VS Code, select **File > New window > Open Folder** and navigate to `Labfiles/01-build-agent-portal-and-vscode/Python`, then choose **Select Folder**.
 
 1. In the Explorer pane, open the `agent_with_functions.py` file. If the file is empty, replace its contents with the following code.
 
