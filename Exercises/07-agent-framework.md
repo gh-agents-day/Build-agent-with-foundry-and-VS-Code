@@ -6,20 +6,10 @@ This exercise should take approximately **30** minutes to complete.
 
 > **Note**: Some of the technologies used in this exercise are in preview or in active development. You may experience some unexpected behavior, warnings, or errors.
 
-## Prerequisites
-
-Before starting this exercise, ensure you have:
-
-- [Visual Studio Code](https://code.visualstudio.com/) installed on your local machine
-- An active [Azure subscription](https://azure.microsoft.com/free/)
-- [Python 3.13](https://www.python.org/downloads/) installed
-- [Git](https://git-scm.com/downloads) installed on your local machine
-
-> \* Python 3.14 isn't supported yet: some dependencies have no 3.14 build. This lab was tested with Python 3.13.12.
 
 ## Create a Foundry project with the Foundry Toolkit VS Code extension
 
-As a developer, you may spend some time working in the Foundry portal; but you’re also likely to spend a lot of time in Visual Studio Code. The Foundry Toolkit extension provides a convenient way to work with Foundry project resources without leaving the development environment.
+As a developer, you may spend some time working in the Foundry portal; but you’re also likely to spend a lot of time in Visual Studio Code. The Foundry Toolkit extension provides a convenient way to work with Foundry project resources without leaving the development environment. `(Skip Step 1 to 4 if already configured)`
 
 1. Open Visual Studio Code.
 
@@ -71,21 +61,8 @@ At the core of any generative AI project, there’s at least one generative AI m
 
 For this exercise, you'll use starter code that will help you connect to your Foundry project and create an agent that can process expenses data. You'll clone this code from a GitHub repository.
 
-1. In VS Code, open the Command Palette (**Ctrl+Shift+P** or **View > Command Palette**).
 
-1. Type **Git: Clone** and select it from the list.
-
-1. Enter the repository URL:
-
-    ```
-   https://github.com/MicrosoftLearning/mslearn-ai-agents.git
-    ```
-
-1. Choose a location on your local machine to clone the repository.
-
-1. When prompted, select **Open** to open the cloned repository in VS Code.
-
-1. Once the repository opens, select **File > Open Folder** and navigate to `mslearn-ai-agents/Labfiles/07-agent-framework`, then choose **Select Folder**.
+1. In VS Code, select **File > New Window > Open Folder** and navigate to `Labfiles/07-agent-framework`, then choose **Select Folder**.
 
 1. In the Explorer pane, expand the **Python** folder to view the code files for this exercise.
 

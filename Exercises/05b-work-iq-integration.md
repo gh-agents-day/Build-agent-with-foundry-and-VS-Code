@@ -6,20 +6,6 @@ This lab takes approximately **40** minutes.
 
 > **Note:** This is an **optional/advanced lab** that requires a Microsoft 365 Copilot license. It's designed for enterprise learners, Microsoft employees, or those with M365 Copilot access. Standard M365 accounts without Copilot will not work.
 
-## Prerequisites
-
-Before starting this lab, ensure you have:
-
-- Basic understanding of AI agents and the Model Context Protocol (MCP)
-- **Microsoft 365 with Copilot License**
-- IT admin approval for Work IQ (organizational accounts only)
-- [Node.js 18](https://nodejs.org/en/download/) or later installed
-- [Python 3.13](https://www.python.org/downloads/) installed
-- [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli) installed (authenticated with `az login`)
-- Active M365 data (emails, meetings, Teams chats) to query
-
-> \* Python 3.14 isn't supported yet: some dependencies have no 3.14 build. This lab was tested with Python 3.13.12.
-
 > **Important:** Work IQ **only works** with Microsoft 365 Copilot-enabled accounts. You cannot complete this lab without Copilot.
 
 ## Install Work IQ
@@ -62,33 +48,18 @@ Before starting this lab, ensure you have:
 
 Now let's use Visual Studio Code to develop an app. The code files for your app have been provided in a GitHub repo.
 
-1. Start Visual Studio Code, and open a terminal window.
 
-2. Enter the command to clone the repo to a local folder (it doesn't matter which folder):
-
-    ```bash
-   git clone https://github.com/MicrosoftLearning/mslearn-ai-agents.git
-    ```
-
-3. When the repository has been cloned, open the folder in Visual Studio Code.
-
-    > **Note**: If Visual Studio Code shows you a pop-up message prompting you to trust the code you are opening, select **Yes, I trust the authors** to continue.
-
-4. Wait while additional files are installed to support the Python code projects in the repo (if prompted).
-
-    > **Note**: If you are prompted to install required assets to build and debug, select **Not Now**.
-
-5. In the **Explorer** pane, expand the **Labfiles/05b-work-iq-integration/Python** folder.
+1. In VS Code, Go to **File > New Window > Open Folder** and open **Labfiles/05b-work-iq-integration/Python** folder.
 
     The provided files include application code, configuration settings, and the agent client starter code.
 
-6. In the terminal, enter the command to create a Python virtual environment:
+2. In the terminal, enter the command to create a Python virtual environment:
 
     ```bash
    python -m venv venv
     ```
 
-7. Activate the virtual environment:
+3. Activate the virtual environment:
 
    **Windows:**
 
@@ -102,13 +73,13 @@ Now let's use Visual Studio Code to develop an app. The code files for your app 
    source venv/bin/activate
     ```
 
-8. Install required Python packages:
+4. Install required Python packages:
 
     ```bash
    pip install -r requirements.txt
     ```
 
-9. Configure your `.env` file:
+5. Configure your `.env` file:
 
    In the lab folder, open the `.env` file and update it with your Foundry project endpoint:
 
