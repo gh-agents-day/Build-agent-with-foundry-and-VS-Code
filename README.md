@@ -19,7 +19,9 @@ Primary content locations:
 
 - Exercises: step-by-step workshop instructions
 - Labfiles: starter code and runnable samples for each exercise
-- Media: workshop screenshots and visuals
+- Clone the repository to your local machine using `git clone <repository-url>`
+- Navigate into the cloned repository using `cd <repository-directory>`
+
 
 ## Exercises At A Glance
 

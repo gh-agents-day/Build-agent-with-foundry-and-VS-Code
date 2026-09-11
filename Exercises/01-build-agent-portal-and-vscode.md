@@ -8,33 +8,9 @@ This exercise takes approximately **45** minutes.
 
 ## Create a Microsoft Foundry Project
 
-Microsoft Foundry uses projects to organize models, resources, data, and other assets used to develop an AI solution.
+Follow the [Portal-based project creation steps in Prerequisites](00.Prerequisites.md#portal-create-project).
 
-1. In a web browser, open the [Foundry portal](https://ai.azure.com) at `https://ai.azure.com` and sign in using your Azure credentials. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Foundry** logo at the top left to navigate to the home page.
-
-    > **Important**: For this lab, you're using the **New** Foundry experience.
-
-1. In the top banner, select **Start building** to try the new Microsoft Foundry Experience.
-
-1. When prompted, create a **new** project, and enter a valid name for your project (e.g., `it-support-agent-project`).
-
-1. Expand **Advanced options** and specify the following settings:
-    - **Microsoft Foundry resource**: *A valid name for your Foundry resource*
-    - **Region**: *Select one available near you*\**
-    - **Subscription**: *Your Azure subscription*
-    - **Resource group**: *Select your resource group, or create a new one*
-
-    > \* Some Azure AI resources are constrained by regional model quotas. In the event of a quota limit being exceeded later in the exercise, there's a possibility you may need to create another resource in a different region.
-
-1. Select **Create** and wait for your project to be created.
-
-1. When your project is created, a welcome dialog may appear. Select **Next** to read through the welcome message, and then select **Create agent**.
-
-    You can also select **Start building** on the home page, and select **Create agents** from the drop-down menu.
-
-1. Set the **Agent name** to `it-support-agent` and create the agent.
-
-The playground will open for your newly created agent. You'll see that an available deployed model is already selected for you.
+For this exercise, you can use the suggested naming convention: `foundry-ex-01-it-support`. When your project is created, you'll see the agent playground with a default deployed model already selected.
 
 ## Configure your agent with instructions and grounding data
 

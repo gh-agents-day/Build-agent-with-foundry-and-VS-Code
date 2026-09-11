@@ -11,33 +11,9 @@ This lab takes approximately **40** minutes.
 
 ## Create a Foundry project
 
-Microsoft Foundry uses projects to organize models, resources, data, and other assets used to develop an AI solution.
+Follow the [Portal-based project creation steps in Prerequisites](00.Prerequisites.md#portal-create-project).
 
-1. In a web browser, open the [Foundry portal](https://ai.azure.com) at `https://ai.azure.com` and sign in using your Azure credentials. Close any tips or quick start panes that open the first time you sign in, and if necessary use the **Foundry** logo at the top left to navigate to the home page.
-
-    > **Important**: For this lab, you're using the **New** Foundry experience.
-
-1. In the top banner, select **Start building** to try the new Microsoft Foundry Experience.
-
-1. When prompted, create a **new** project, and enter a valid name for your project (for example, *m365-lab*).
-
-1. Expand **Advanced options** and specify the following settings:
-    - **Foundry resource**: *Create a new Foundry resource or select an existing one*
-    - **Subscription**: *Your Azure subscription*
-    - **Resource group**: *Create or select a resource group*
-    - **Location**: *Select any available region*\
-
-    > \* Some Azure AI resources are constrained by regional model quotas. In the event of a quota limit being exceeded later in the exercise, there's a possibility you may need to create another resource in a different region.
-
-1. Select **Create** and wait for your project to be created.
-
-2. When your project is created, a welcome dialog may appear. Select **Next** to read through the welcome message, and then select **Create agent**.
-
-    You can also select **Start building** on the home page, and select **Create agents** from the drop-down menu.
-
-3. Set the **Agent name** to `enterprise-knowledge-agent` and create the agent.
-
-The playground will open for your newly created agent. You'll see that an available deployed model is already selected for you.
+For this exercise, you can use the suggested naming convention: `foundry-ex-05a-teams`. The playground will open for your newly created agent with a default deployed model already selected.
 
 ## Configure your agent with instructions and grounding data
 

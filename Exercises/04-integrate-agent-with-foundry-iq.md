@@ -11,24 +11,11 @@ This exercise should take approximately **45** minutes to complete.
 
 ## Create a Foundry project
 
-Let's start by creating a Foundry project with the new Foundry experience.
+Follow the [Portal-based project creation steps in Prerequisites](00.Prerequisites.md#portal-create-project).
 
-1. In a web browser, open the [Foundry portal](https://ai.azure.com) at `https://ai.azure.com` and sign in using your Azure credentials. Close any tips or quick start panes that are opened the first time you sign in.
+For this exercise, you can use the suggested naming convention: `foundry-ex-04-iq-demo`.
 
-    > **Important**: Make sure the **New Foundry** toggle is *On* for this lab to use the updated user interface.
-
-1. Once you toggle to the **New Foundry**, you'll be asked to select a project. In the dropdown, select **Create a new project**.
-1. In the **Create a project** dialog, enter a valid name for your project (for example, *agent-iq-lab*).
-1. Confirm or configure the following settings for your project:
-    - **Foundry resource**: *Create a new Foundry resource or select an existing one*
-    - **Subscription**: *Your Azure subscription*
-    - **Resource group**: *Create or select a resource group*
-    - **Location**: *Select any available region*\*
-
-    > \* Some Azure AI resources are constrained by regional model quotas. In the event of a quota limit being exceeded later in the exercise, there's a possibility you may need to create another resource in a different region.
-
-1. Select **Create** and wait for your project to be created. This may take a few minutes.
-1. When your project is created, you'll see the project home page.
+When creating an agent, it will deploy the default model (like `gpt-5`). Once your agent is created, you'll see the agent playground with that default model automatically selected for you.
 
 ## Create an agent
 
