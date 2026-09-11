@@ -100,23 +100,7 @@ Great! You've created an agent with grounding data, file search, and code interp
 
 As a developer, you may spend some time working in the Foundry portal; but you’re also likely to spend a lot of time in Visual Studio Code. The Foundry Toolkit for VS Code extension provides a convenient way to work with Foundry project resources without leaving the development environment.
 
-### Install and configure the VS Code extension
-
-If you already have installed the Foundry Toolkit extension, you can skip this section.
-
-1. Open Visual Studio Code.
-
-2. Select **Extensions** from the left pane (or press **Ctrl+Shift+X**).
-
-3. Search the extensions marketplace for the `Foundry Toolkit for VS Code` extension from Microsoft and select **Install**.
-
-    Installing the Foundry Toolkit Extension will add the Foundry Toolkit extension to VS Code.
-
-    > **Note**: The extension is currently listed as **Foundry Toolkit**, but some VS Code labels, commands, or older screenshots may still refer to **AI Toolkit**. In this lab, treat those names as referring to the same extension experience.
-
-4. After installing the extension, select the Foundry Toolkit icon in the sidebar.
-
-    You should be prompted to sign in to your Azure account if you haven't already.
+Refer to the [VS Code Toolkit project creation steps in Prerequisites](00.Prerequisites.md#toolkit-create-project) if you haven't already set up your Foundry project in VS Code.
 
 ### Test your agent in VS Code
 
