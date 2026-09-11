@@ -6,6 +6,22 @@ This exercise takes approximately **45** minutes.
 
 > **Note**: Some of the technologies used in this exercise are in preview or in active development. You may experience some unexpected behavior, warnings, or errors.
 
+## Clone the repository
+
+Before starting the lab steps, clone the workshop repository to your local machine if you haven't already:
+
+1. Open a terminal or command prompt.
+2. Clone the repository to your local computer:
+
+    ```bash
+    git clone https://github.com/CanarysResources/Build-agent-with-foundry-and-VS-Code.git
+    ```
+3. Navigate to the exercise lab directory:
+
+    ```bash
+    cd Labfiles/01-build-agent-portal-and-vscode
+    ```
+
 ## Create a Microsoft Foundry Project
 
 Follow the [Portal-based project creation steps in Prerequisites](00.Prerequisites.md#portal-create-project).
