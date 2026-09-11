@@ -35,27 +35,27 @@ Now that you have an agent created, let's configure it with instructions and kno
 
 2. Select **Save** to save your current agent configuration.
 
-3. Download the sample policy documents. Open new browser tabs and save each file:
+3. Locate the sample policy documents in your cloned repository:
 
     **IT Security Policy:**
 
     ```
-   <Repository Root>Labfiles/05a-m365-teams-integration/Python/sample_documents/it_security_policy.txt
+   <RepositoryRoot>/Labfiles/05a-m365-teams-integration/Python/sample_documents/it_security_policy.txt
     ```
 
     **Remote Work Policy:**
 
     ```
-   <Repository Root>Labfiles/05a-m365-teams-integration/Python/sample_documents/remote_work_policy.txt
+   <RepositoryRoot>/Labfiles/05a-m365-teams-integration/Python/sample_documents/remote_work_policy.txt
     ```
 
 4. Return to your agent's configuration, scroll to the **Tools** section.
 
 5. Select **Upload files**.
 
-6. A pop-up to attach files will appear. Attach the files you previously downloaded.
+6. A pop-up to attach files will appear. Browse to the local paths above and select both policy files (`it_security_policy.txt` and `remote_work_policy.txt`).
 
-7. Once complete, select **Attach**.
+7. Once selected, click **Attach**.
 
 ## Test the agent in the playground
 
