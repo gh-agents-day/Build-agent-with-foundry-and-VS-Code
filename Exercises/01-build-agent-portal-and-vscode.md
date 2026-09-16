@@ -6,35 +6,27 @@ This exercise takes approximately **45** minutes.
 
 > **Note**: Some of the technologies used in this exercise are in preview or in active development. You may experience some unexpected behavior, warnings, or errors.
 
+## Clone the repository
+
+Before starting the lab steps, clone the workshop repository to your local machine if you haven't already:
+
+1. Open a terminal or command prompt.
+2. Clone the repository to your local computer:
+
+    ```bash
+    git clone https://github.com/CanarysResources/Build-agent-with-foundry-and-VS-Code.git
+    ```
+3. Navigate to the exercise lab directory:
+
+    ```bash
+    cd Labfiles/01-build-agent-portal-and-vscode
+    ```
+
 ## Create a Microsoft Foundry Project
 
-Microsoft Foundry uses projects to organize models, resources, data, and other assets used to develop an AI solution.
+Follow the [Portal-based project creation steps in Prerequisites](00.Prerequisites.md#portal-create-project).
 
-1. In a web browser, open the [Foundry portal](https://ai.azure.com) at `https://ai.azure.com` and sign in using your Azure credentials. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Foundry** logo at the top left to navigate to the home page.
-
-    > **Important**: For this lab, you're using the **New** Foundry experience.
-
-1. In the top banner, select **Start building** to try the new Microsoft Foundry Experience.
-
-1. When prompted, create a **new** project, and enter a valid name for your project (e.g., `it-support-agent-project`).
-
-1. Expand **Advanced options** and specify the following settings:
-    - **Microsoft Foundry resource**: *A valid name for your Foundry resource*
-    - **Region**: *Select one available near you*\**
-    - **Subscription**: *Your Azure subscription*
-    - **Resource group**: *Select your resource group, or create a new one*
-
-    > \* Some Azure AI resources are constrained by regional model quotas. In the event of a quota limit being exceeded later in the exercise, there's a possibility you may need to create another resource in a different region.
-
-1. Select **Create** and wait for your project to be created.
-
-1. When your project is created, a welcome dialog may appear. Select **Next** to read through the welcome message, and then select **Create agent**.
-
-    You can also select **Start building** on the home page, and select **Create agents** from the drop-down menu.
-
-1. Set the **Agent name** to `it-support-agent` and create the agent.
-
-The playground will open for your newly created agent. You'll see that an available deployed model is already selected for you.
+For this exercise, you can use the suggested naming convention: `foundry-ex-01-it-support`. When your project is created, you'll see the agent playground with a default deployed model already selected.
 
 ## Configure your agent with instructions and grounding data
 
@@ -124,23 +116,7 @@ Great! You've created an agent with grounding data, file search, and code interp
 
 As a developer, you may spend some time working in the Foundry portal; but you’re also likely to spend a lot of time in Visual Studio Code. The Foundry Toolkit for VS Code extension provides a convenient way to work with Foundry project resources without leaving the development environment.
 
-### Install and configure the VS Code extension
-
-If you already have installed the Foundry Toolkit extension, you can skip this section.
-
-1. Open Visual Studio Code.
-
-2. Select **Extensions** from the left pane (or press **Ctrl+Shift+X**).
-
-3. Search the extensions marketplace for the `Foundry Toolkit for VS Code` extension from Microsoft and select **Install**.
-
-    Installing the Foundry Toolkit Extension will add the Foundry Toolkit extension to VS Code.
-
-    > **Note**: The extension is currently listed as **Foundry Toolkit**, but some VS Code labels, commands, or older screenshots may still refer to **AI Toolkit**. In this lab, treat those names as referring to the same extension experience.
-
-4. After installing the extension, select the Foundry Toolkit icon in the sidebar.
-
-    You should be prompted to sign in to your Azure account if you haven't already.
+Refer to the [VS Code Toolkit project creation steps in Prerequisites](00.Prerequisites.md#toolkit-create-project) if you haven't already set up your Foundry project in VS Code.
 
 ### Test your agent in VS Code
 
