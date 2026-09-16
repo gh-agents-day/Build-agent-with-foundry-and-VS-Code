@@ -1,4 +1,4 @@
-# Integrate an AI agent with Foundry IQ
+# Foundry IQ integration with agent
 
 In this exercise, you'll use Microsoft Foundry portal to create an agent that integrates with Foundry IQ to search and retrieve information from knowledge bases. You'll create a search resource, configure a knowledge base with sample data, build an agent in the portal, and then connect to it from Visual Studio Code to interact programmatically.
 
@@ -116,7 +116,7 @@ When you create an agent in the portal, its Foundry IQ (knowledge) tool runs **w
 
 1. In Visual Studio Code, select **Extensions** from the left pane (or press **Ctrl+Shift+X**), then search the marketplace for the `Foundry Toolkit for VS Code` extension from Microsoft and select **Install** (if it isn't already installed).
 
-    > **Note**: The extension is currently listed as **Foundry Toolkit**, but some VS Code labels, commands, or older screenshots may still refer to **AI Toolkit**. In this lab, treat those names as referring to the same extension experience.
+    > **Note**: The extension is currently listed as **Foundry Toolkit**, but some VS Code labels, commands, or older screenshots may refer to **AI Toolkit**. In this lab, treat those names as referring to the same extension experience.
 
 1. Select the **Foundry Toolkit** icon in the sidebar, and sign in to your Azure account if you're prompted.
    

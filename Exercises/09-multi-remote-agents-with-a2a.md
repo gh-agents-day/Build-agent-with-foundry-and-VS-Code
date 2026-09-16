@@ -332,4 +332,4 @@ In this task, you use the A2A protocol to enable the routing agent to send messa
 
 ---
 
-[Back to start: 00 - Prerequisites](00.Prerequisites.md)
+[**Next Exercise: 10 - Post-Workshop Resource Cleanup**](10-post-workshop-cleanup.md) | [Back to start: 00 - Prerequisites](00.Prerequisites.md)

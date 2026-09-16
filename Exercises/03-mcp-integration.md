@@ -465,4 +465,4 @@ In this task, you'll connect the MCP server tools to your agent so that it can c
 
 ---
 
-[Next workshop: 04 - Integrate Agent With Foundry IQ](04-integrate-agent-with-foundry-iq.md)
+[Next workshop: 04 - Foundry IQ Integration with Agent](04-foundry-iq-integration-with-agent.md)
